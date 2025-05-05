@@ -39,6 +39,19 @@ namespace LaboratorioPagina90.PageObjectPattern
         [Test]
         public void VerifyThatFruitsAreCorrectlyDisplayed()
         {
+            var homePage = new HomePageObject(driver); // crea una instancia de la pagina principal
+            
+            var result = new List<FruitModel>();
+            
+            result.AddRange(homePage.DisplayedFruitModel()); //con esto se obtienen 12 frutas de la page y se inserta
+            
+            //para los otros rangos de frutas
+            
+            result.AddRange(homePage.PageNavegation.ClickButtonPage2().DisplayedFruitModel());
+            
+            result.AddRange(homePage.PageNavegation.ClickButtonPage3().DisplayedFruitModel());
+            
+
             var expectedFruits = new List<FruitModel>
             {   //28 en total, repartidos 12-12-4 
                 new FruitModel("Apple", 2.50M, "Crispy and delicious apples from the orchard."),
@@ -71,26 +84,8 @@ namespace LaboratorioPagina90.PageObjectPattern
                 new FruitModel("Cranberry", 3.20M, "Tart and antioxidant-packed cranberries for holiday dishes."), 
                 };
 
-            var result = new List<FruitModel>();
-   
-            var homePage = new HomePageObject(driver); // se obtiene la pagin donde estan las frutas.
-
-            // After each page navigation, verify the number of fruits
-            var page1Fruits = homePage.DisplayedFruitModel();
-            result.AddRange(page1Fruits);
-            Assert.That(page1Fruits.Count, Is.EqualTo(12), "Page 1 fruits count is incorrect.");
-
-            var page2Fruits = homePage.PageNavegation.ClickButtonPage2().DisplayedFruitModel();
-            result.AddRange(page2Fruits);
-            Assert.That(page2Fruits.Count, Is.EqualTo(12), "Page 2 fruits count is incorrect.");
-
-            var page3Fruits = homePage.PageNavegation.ClickButtonPage3().DisplayedFruitModel();
-            result.AddRange(page3Fruits);
-            Assert.That(page3Fruits.Count, Is.EqualTo(4), "Page 3 fruits count is incorrect.");
-
-
-
-
+            //para comprar los valores cargados de la pagina contra lo que tenemos:
+            result.Should().BeEquivalentTo(expectedFruits);
         }
     }
 }

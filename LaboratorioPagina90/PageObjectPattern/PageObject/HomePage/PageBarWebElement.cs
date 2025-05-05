@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 using LaboratorioPagina90.PageObjectPattern.Helpers;
 using OpenQA.Selenium;
 
+//Barra de navegacion
 namespace LaboratorioPagina90.PageObjectPattern.PageObject.HomePage
 {
     public class PageBarWebElement
@@ -22,7 +23,7 @@ namespace LaboratorioPagina90.PageObjectPattern.PageObject.HomePage
         private IWebElement ButtonPage2 => driver.FindElement(By.Id("page2Button"));
         private IWebElement ButtonPage3 => driver.FindElement(By.Id("page3Button"));
 
-        //accion de click en los botones
+        // Acciones sobre los botones
         public HomePageObject ClickButtonPage1()
         {
             ButtonPage1.Click();

@@ -7,7 +7,7 @@ using LaboratorioPagina90.PageObjectPattern.Helpers;
 using OpenQA.Selenium;
 using LaboratorioPagina90.PageObjectPattern.Models;
 
-
+//Pagina principal
 namespace LaboratorioPagina90.PageObjectPattern.PageObject.HomePage
 {
     public class HomePageObject
@@ -18,9 +18,9 @@ namespace LaboratorioPagina90.PageObjectPattern.PageObject.HomePage
         {
             this.driver = driver;
         }
-        //para las frutas que seran una lista
+        //Lista de frutas visibles
         private List<IWebElement> DisplayedFruits => driver.FindElements(By.ClassName("fruit")).Where(fruit => fruit.Displayed).ToList();
-        //para mostrar la lista de frutas      
+        //Para mostrar la lista de frutas      
         public PageBarWebElement PageNavegation => new PageBarWebElement(driver);
 
         public IList<FruitWebElement> DisplayedFruitWebElements()
