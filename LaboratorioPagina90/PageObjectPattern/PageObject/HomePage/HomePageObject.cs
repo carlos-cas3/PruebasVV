@@ -30,5 +30,33 @@ namespace LaboratorioPagina90.PageObjectPattern.PageObject.HomePage
         // metod que muestre la lista de frutas
         public IList<FruitModel> DisplayedFruitModel() => FruitHelper.Parse(DisplayedFruitWebElements());
 
+
+        // metodo para el segundo test 
+        public SearchBarWebElement SearchBar => new SearchBarWebElement(driver);
+
+        // metodo para el carrito de compras: TEST3
+        private IWebElement ShoppingCartIcon => driver.FindElement(By.Id("cart-icon"));
+        public int GetShoppingCartIconNumberOfItems() => int.Parse(ShoppingCartIcon.Text);
+        
+        //para abrir el carro de compras
+        public void ClickShoppingCartIcon()
+        {
+            ShoppingCartIcon.Click();
+        }
+
+        public bool IsShoppingCartIconNumberOfItems(int number)
+        {
+            try
+            {
+                WaitHelper.WaitForCondition(() =>
+               int.Parse(ShoppingCartIcon.Text).Equals(number));
+                return true;
+            }
+            catch (Exception)
+            {
+                return false;
+            }
+        }
+
     }
 }

@@ -87,5 +87,79 @@ namespace LaboratorioPagina90.PageObjectPattern
             //para comprar los valores cargados de la pagina contra lo que tenemos:
             result.Should().BeEquivalentTo(expectedFruits);
         }
+
+
+        [Test]
+        public void SearchTests()
+        {
+            var homepage = new HomePageObject(driver); // nos retorna la pagina
+
+            var foundFruits = homepage.SearchBar
+                .InputSearch("app")
+                .ClickSearch()
+                .DisplayedFruitModel();
+
+            foundFruits.Count.Should().Be(2); //segun la condicion debe retornar solo 2 
+
+            // para obtener los nombres
+            var foundFruitsName = foundFruits.Select(fruit => fruit.Name).ToList();
+            var expectFruitName = new[] { "Pineapple", "Apple" };
+            foundFruitsName.Should().BeEquivalentTo(expectFruitName); // compara los valores
+
+
+            //para el test2
+            var foundFruits2 = homepage.SearchBar
+                .InputSearch (string.Empty)
+                .ClickSearch()
+                .DisplayedFruitModel()
+                .Count.Should().Be(12);
+
+
+            //para el test3 que es similar al 1
+
+            var foundFruits3 = homepage.SearchBar
+                .InputSearch("ape")
+                .ClickEnter()
+                .DisplayedFruitModel();
+
+            var expectFruitName2 = new[] { "Grape", "Grapefruit" };
+            foundFruits3.Select(fruit => fruit.Name).Should().BeEquivalentTo( expectFruitName2);
+        }
+        
+        [Test]
+        public void ShoppingCartTest()
+        {
+            //Tarea 1 Verificar que el icono de arriba es 0
+            var homePage = new HomePageObject(driver);
+            homePage.IsShoppingCartIconNumberOfItems(0).Should().BeTrue();
+                
+            //Tarea 2: 10apple, 6 bananas, 5 Avocado 1 Pomegranete Icono 4 shopping
+            var element = homePage.DisplayedFruitWebElements().Single(fruit => fruit.Name.Equals("Apple"));
+            
+            //Apple 10
+            element
+                .InputQuantity(10) //añadir las 10 manzanas
+                .ClickAddToCart(); //click para añadir al carro
+            //Bananas 6
+            element = homePage.DisplayedFruitWebElements().Single(fruit => fruit.Name.Equals("Banana"));
+            element
+                .InputQuantity (6)
+                .ClickAddToCart();
+            //Avocado 5
+            homePage.PageNavegation.ClickButtonPage2();
+            element = homePage.DisplayedFruitWebElements().Single(fruit => fruit.Name.Equals("Avocado"));
+            element
+                .InputQuantity(5)
+                .ClickAddToCart();
+            //Pomegranete  1
+            homePage.PageNavegation.ClickButtonPage3();
+            element = homePage.DisplayedFruitWebElements().Single(fruit => fruit.Name.Equals("Pomegranate"));
+            element
+                .InputQuantity(1)
+                .ClickAddToCart();
+            //para verificar que el carro tiene numero 4
+            homePage.IsShoppingCartIconNumberOfItems(4).Should().BeTrue();
+
+        }
     }
 }
