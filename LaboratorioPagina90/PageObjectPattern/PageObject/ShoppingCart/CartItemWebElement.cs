@@ -20,12 +20,16 @@ namespace LaboratorioPagina90.PageObjectPattern.PageObject.ShoppingCart
 
         public void ClickButtonRemove() => ButtonRemove.Click();
         public string GetText() => InfoText.Text;
-        public void InputQuantity(int quantity)
+        public void InputQuantity(int quantity) 
         {
             InputFieldQuantity.Clear();
             InputFieldQuantity.SendKeys(quantity.ToString());
             InputFieldQuantity.SendKeys(Keys.Tab);
         }
         public int GetQuantity() => int.Parse(InputFieldQuantity.GetAttribute("value"));
+        public decimal GetTotalPrice() => GetQuantity() * GetPrice();
+        public decimal GetPrice() => decimal.Parse(InfoText.Text.Split(" ")[1]);
+
+        
     }
 }

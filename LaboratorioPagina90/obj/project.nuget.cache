@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "XOVZBgA5Z3U=",
+  "dgSpecHash": "PEmDT84GHZc=",
   "success": true,
-  "projectFilePath": "C:\\Users\\ca\\Source\\Repos\\PruebasVV\\LaboratorioPagina90\\LaboratorioPagina90.csproj",
+  "projectFilePath": "C:\\Users\\ca\\Source\\Repos\\PruebasVVasdfas32eqad\\LaboratorioPagina90\\LaboratorioPagina90.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\ca\\.nuget\\packages\\coverlet.collector\\6.0.2\\coverlet.collector.6.0.2.nupkg.sha512",
     "C:\\Users\\ca\\.nuget\\packages\\fluentassertions\\8.2.0\\fluentassertions.8.2.0.nupkg.sha512",

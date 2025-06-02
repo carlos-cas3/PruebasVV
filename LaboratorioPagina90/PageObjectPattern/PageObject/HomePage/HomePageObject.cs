@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 using LaboratorioPagina90.PageObjectPattern.Helpers;
 using OpenQA.Selenium;
 using LaboratorioPagina90.PageObjectPattern.Models;
+using LaboratorioPagina90.PageObjectPattern.PageObject.ShoppingCart;
 
 //Pagina principal
 namespace LaboratorioPagina90.PageObjectPattern.PageObject.HomePage
@@ -39,9 +40,11 @@ namespace LaboratorioPagina90.PageObjectPattern.PageObject.HomePage
         public int GetShoppingCartIconNumberOfItems() => int.Parse(ShoppingCartIcon.Text);
         
         //para abrir el carro de compras
-        public void ClickShoppingCartIcon()
+        public ShoppingCartPageObject ClickShoppingCartIcon()
         {
             ShoppingCartIcon.Click();
+            return new ShoppingCartPageObject(driver);
+
         }
 
         public bool IsShoppingCartIconNumberOfItems(int number)
