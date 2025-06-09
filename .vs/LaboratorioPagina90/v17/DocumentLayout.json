@@ -1,26 +1,18 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\ca\\source\\repos\\PruebasVVasdfas32eqad\\",
+  "WorkspaceRootPath": "C:\\Users\\ca\\source\\repos\\PruebasVV123asdas12asdasd12e\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{9B6B49B1-BD76-45D1-86DF-A195686CFD27}|LaboratorioPagina90\\LaboratorioPagina90.csproj|c:\\users\\ca\\source\\repos\\pruebasvvasdfas32eqad\\laboratoriopagina90\\pageobjectpattern\\freshmarkettest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{9B6B49B1-BD76-45D1-86DF-A195686CFD27}|LaboratorioPagina90\\LaboratorioPagina90.csproj|c:\\users\\ca\\source\\repos\\pruebasvv123asdas12asdasd12e\\laboratoriopagina90\\pageobjectpattern\\pageobject\\contactus\\contactuspageobject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9B6B49B1-BD76-45D1-86DF-A195686CFD27}|LaboratorioPagina90\\LaboratorioPagina90.csproj|solutionrelative:laboratoriopagina90\\pageobjectpattern\\pageobject\\contactus\\contactuspageobject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9B6B49B1-BD76-45D1-86DF-A195686CFD27}|LaboratorioPagina90\\LaboratorioPagina90.csproj|c:\\users\\ca\\source\\repos\\pruebasvv123asdas12asdasd12e\\laboratoriopagina90\\pageobjectpattern\\freshmarkettest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9B6B49B1-BD76-45D1-86DF-A195686CFD27}|LaboratorioPagina90\\LaboratorioPagina90.csproj|solutionrelative:laboratoriopagina90\\pageobjectpattern\\freshmarkettest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9B6B49B1-BD76-45D1-86DF-A195686CFD27}|LaboratorioPagina90\\LaboratorioPagina90.csproj|c:\\users\\ca\\source\\repos\\pruebasvvasdfas32eqad\\laboratoriopagina90\\pageobjectpattern\\pageobject\\homepage\\homepageobject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{9B6B49B1-BD76-45D1-86DF-A195686CFD27}|LaboratorioPagina90\\LaboratorioPagina90.csproj|c:\\users\\ca\\source\\repos\\pruebasvv123asdas12asdasd12e\\laboratoriopagina90\\pageobjectpattern\\pageobject\\homepage\\homepageobject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9B6B49B1-BD76-45D1-86DF-A195686CFD27}|LaboratorioPagina90\\LaboratorioPagina90.csproj|solutionrelative:laboratoriopagina90\\pageobjectpattern\\pageobject\\homepage\\homepageobject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9B6B49B1-BD76-45D1-86DF-A195686CFD27}|LaboratorioPagina90\\LaboratorioPagina90.csproj|c:\\users\\ca\\source\\repos\\pruebasvvasdfas32eqad\\laboratoriopagina90\\pageobjectpattern\\helpers\\waithelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9B6B49B1-BD76-45D1-86DF-A195686CFD27}|LaboratorioPagina90\\LaboratorioPagina90.csproj|solutionrelative:laboratoriopagina90\\pageobjectpattern\\helpers\\waithelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9B6B49B1-BD76-45D1-86DF-A195686CFD27}|LaboratorioPagina90\\LaboratorioPagina90.csproj|c:\\users\\ca\\source\\repos\\pruebasvvasdfas32eqad\\laboratoriopagina90\\pageobjectpattern\\pageobject\\shoppingcart\\shoppingcartpageobject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9B6B49B1-BD76-45D1-86DF-A195686CFD27}|LaboratorioPagina90\\LaboratorioPagina90.csproj|solutionrelative:laboratoriopagina90\\pageobjectpattern\\pageobject\\shoppingcart\\shoppingcartpageobject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9B6B49B1-BD76-45D1-86DF-A195686CFD27}|LaboratorioPagina90\\LaboratorioPagina90.csproj|c:\\users\\ca\\source\\repos\\pruebasvvasdfas32eqad\\laboratoriopagina90\\pageobjectpattern\\pageobject\\shoppingcart\\cartitemwebelement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9B6B49B1-BD76-45D1-86DF-A195686CFD27}|LaboratorioPagina90\\LaboratorioPagina90.csproj|solutionrelative:laboratoriopagina90\\pageobjectpattern\\pageobject\\shoppingcart\\cartitemwebelement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,7 +22,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Bookmark",
@@ -42,64 +34,41 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "FreshMarketTest.cs",
-              "DocumentMoniker": "C:\\Users\\ca\\source\\repos\\PruebasVVasdfas32eqad\\LaboratorioPagina90\\PageObjectPattern\\FreshMarketTest.cs",
+              "DocumentMoniker": "C:\\Users\\ca\\source\\repos\\PruebasVV123asdas12asdasd12e\\LaboratorioPagina90\\PageObjectPattern\\FreshMarketTest.cs",
               "RelativeDocumentMoniker": "LaboratorioPagina90\\PageObjectPattern\\FreshMarketTest.cs",
-              "ToolTip": "C:\\Users\\ca\\source\\repos\\PruebasVVasdfas32eqad\\LaboratorioPagina90\\PageObjectPattern\\FreshMarketTest.cs",
+              "ToolTip": "C:\\Users\\ca\\source\\repos\\PruebasVV123asdas12asdasd12e\\LaboratorioPagina90\\PageObjectPattern\\FreshMarketTest.cs",
               "RelativeToolTip": "LaboratorioPagina90\\PageObjectPattern\\FreshMarketTest.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAALMAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAANEAAABhAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-19T18:29:13.486Z",
+              "WhenOpened": "2025-06-08T21:45:57.824Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ContactUsPageObject.cs",
+              "DocumentMoniker": "C:\\Users\\ca\\source\\repos\\PruebasVV123asdas12asdasd12e\\LaboratorioPagina90\\PageObjectPattern\\PageObject\\ContactUs\\ContactUsPageObject.cs",
+              "RelativeDocumentMoniker": "LaboratorioPagina90\\PageObjectPattern\\PageObject\\ContactUs\\ContactUsPageObject.cs",
+              "ToolTip": "C:\\Users\\ca\\source\\repos\\PruebasVV123asdas12asdasd12e\\LaboratorioPagina90\\PageObjectPattern\\PageObject\\ContactUs\\ContactUsPageObject.cs",
+              "RelativeToolTip": "LaboratorioPagina90\\PageObjectPattern\\PageObject\\ContactUs\\ContactUsPageObject.cs",
+              "ViewState": "AgIAADEAAAAAAAAAAAAwwD8AAAA+AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-08T21:12:16.551Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "WaitHelper.cs",
-              "DocumentMoniker": "C:\\Users\\ca\\source\\repos\\PruebasVVasdfas32eqad\\LaboratorioPagina90\\PageObjectPattern\\Helpers\\WaitHelper.cs",
-              "RelativeDocumentMoniker": "LaboratorioPagina90\\PageObjectPattern\\Helpers\\WaitHelper.cs",
-              "ToolTip": "C:\\Users\\ca\\source\\repos\\PruebasVVasdfas32eqad\\LaboratorioPagina90\\PageObjectPattern\\Helpers\\WaitHelper.cs",
-              "RelativeToolTip": "LaboratorioPagina90\\PageObjectPattern\\Helpers\\WaitHelper.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAiAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-26T18:23:24.782Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
               "Title": "HomePageObject.cs",
-              "DocumentMoniker": "C:\\Users\\ca\\source\\repos\\PruebasVVasdfas32eqad\\LaboratorioPagina90\\PageObjectPattern\\PageObject\\HomePage\\HomePageObject.cs",
+              "DocumentMoniker": "C:\\Users\\ca\\source\\repos\\PruebasVV123asdas12asdasd12e\\LaboratorioPagina90\\PageObjectPattern\\PageObject\\HomePage\\HomePageObject.cs",
               "RelativeDocumentMoniker": "LaboratorioPagina90\\PageObjectPattern\\PageObject\\HomePage\\HomePageObject.cs",
-              "ToolTip": "C:\\Users\\ca\\source\\repos\\PruebasVVasdfas32eqad\\LaboratorioPagina90\\PageObjectPattern\\PageObject\\HomePage\\HomePageObject.cs",
+              "ToolTip": "C:\\Users\\ca\\source\\repos\\PruebasVV123asdas12asdasd12e\\LaboratorioPagina90\\PageObjectPattern\\PageObject\\HomePage\\HomePageObject.cs",
               "RelativeToolTip": "LaboratorioPagina90\\PageObjectPattern\\PageObject\\HomePage\\HomePageObject.cs",
-              "ViewState": "AgIAABgAAAAAAAAAAAA2wC0AAAAtAAAAAAAAAA==",
+              "ViewState": "AgIAADAAAAAAAAAAAAAowEcAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-26T18:34:21.938Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "CartItemWebElement.cs",
-              "DocumentMoniker": "C:\\Users\\ca\\source\\repos\\PruebasVVasdfas32eqad\\LaboratorioPagina90\\PageObjectPattern\\PageObject\\ShoppingCart\\CartItemWebElement.cs",
-              "RelativeDocumentMoniker": "LaboratorioPagina90\\PageObjectPattern\\PageObject\\ShoppingCart\\CartItemWebElement.cs",
-              "ToolTip": "C:\\Users\\ca\\source\\repos\\PruebasVVasdfas32eqad\\LaboratorioPagina90\\PageObjectPattern\\PageObject\\ShoppingCart\\CartItemWebElement.cs",
-              "RelativeToolTip": "LaboratorioPagina90\\PageObjectPattern\\PageObject\\ShoppingCart\\CartItemWebElement.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACMAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-26T18:17:13.737Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "ShoppingCartPageObject.cs",
-              "DocumentMoniker": "C:\\Users\\ca\\source\\repos\\PruebasVVasdfas32eqad\\LaboratorioPagina90\\PageObjectPattern\\PageObject\\ShoppingCart\\ShoppingCartPageObject.cs",
-              "RelativeDocumentMoniker": "LaboratorioPagina90\\PageObjectPattern\\PageObject\\ShoppingCart\\ShoppingCartPageObject.cs",
-              "ToolTip": "C:\\Users\\ca\\source\\repos\\PruebasVVasdfas32eqad\\LaboratorioPagina90\\PageObjectPattern\\PageObject\\ShoppingCart\\ShoppingCartPageObject.cs",
-              "RelativeToolTip": "LaboratorioPagina90\\PageObjectPattern\\PageObject\\ShoppingCart\\ShoppingCartPageObject.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAPAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-26T18:07:33.765Z"
             }
           ]
         }

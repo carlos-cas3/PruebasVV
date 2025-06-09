@@ -16,6 +16,9 @@ using OpenQA.Selenium.BiDi.Modules.Input;
 using FluentAssertions;
 using LaboratorioPagina90.PageObjectPattern.Models;
 using LaboratorioPagina90.PageObjectPattern.Helpers;
+using Microsoft.VisualStudio.TestPlatform.CommunicationUtilities;
+using Microsoft.VisualBasic;
+using Microsoft.VisualStudio.TestPlatform.ObjectModel;
 
 
 namespace LaboratorioPagina90.PageObjectPattern
@@ -188,6 +191,36 @@ namespace LaboratorioPagina90.PageObjectPattern
             var fruitModel = FruitHelper.Parse(fruitWebElement);
             fruitModel.Quantity = quantity;
             return fruitModel;
+        }
+
+        // resumen de 4to test
+        //1.Abrir el Fresh Market.
+        //2.Click en el botón “Contact Us”
+        //3.Click en el botón “Submit”. Verificar que 3 mensajes de error son mostrados con sus valores
+        //4.Verifique que el desplegable “Categoria” contiene 5 opciones, que se pueden ver en la IU. 
+        //5.Ingrese valores validos en todos los campos y pulse “Submit”. Verifique que una aleta se muestra con el mensaje “Form submitted successfully”
+        //6.Click al boton “Accept” dentro del alert
+        [Test]
+        public void ContactUsTest()
+        {
+            var homePage = new HomePageObject(driver);
+            var contactUsForm = homePage.clickContactUs();
+            contactUsForm.ClickSumit();
+            contactUsForm.GetDisplayedTitleErrorMessage().Should().Be("Please enter a title");
+            contactUsForm.GetDisplayedEmailErrorMessage().Should().Be("Please enter a valid email address");
+            contactUsForm.GetDisplayedTextErrorMessage().Should().Be("Please enter a message");
+
+            contactUsForm.GetCategoryOptions().Should().BeEquivalentTo(new[] { "Search Information", "Career query", "Fruit enquiry", "Improvements", "Other" });
+
+            contactUsForm
+                .InputTextContactTitle("Jose")
+                .InputTextContactEmail("aespinozar@unmsm.edu.pe")
+                .InputTextContactMessage("This is my Message")
+                .ClickSumit();
+            var alert = driver.SwitchTo().Alert();
+            alert.Text.Should().Be("Form submitted successfully!");
+            alert.Accept();
+
         }
 
     }

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\ca\\Source\\Repos\\PruebasVVasdfas32eqad\\LaboratorioPagina90\\LaboratorioPagina90.csproj": {}
+    "C:\\Users\\ca\\Source\\Repos\\PruebasVV123asdas12asdasd12e\\LaboratorioPagina90\\LaboratorioPagina90.csproj": {}
   },
   "projects": {
-    "C:\\Users\\ca\\Source\\Repos\\PruebasVVasdfas32eqad\\LaboratorioPagina90\\LaboratorioPagina90.csproj": {
+    "C:\\Users\\ca\\Source\\Repos\\PruebasVV123asdas12asdasd12e\\LaboratorioPagina90\\LaboratorioPagina90.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ca\\Source\\Repos\\PruebasVVasdfas32eqad\\LaboratorioPagina90\\LaboratorioPagina90.csproj",
+        "projectUniqueName": "C:\\Users\\ca\\Source\\Repos\\PruebasVV123asdas12asdasd12e\\LaboratorioPagina90\\LaboratorioPagina90.csproj",
         "projectName": "LaboratorioPagina90",
-        "projectPath": "C:\\Users\\ca\\Source\\Repos\\PruebasVVasdfas32eqad\\LaboratorioPagina90\\LaboratorioPagina90.csproj",
+        "projectPath": "C:\\Users\\ca\\Source\\Repos\\PruebasVV123asdas12asdasd12e\\LaboratorioPagina90\\LaboratorioPagina90.csproj",
         "packagesPath": "C:\\Users\\ca\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ca\\Source\\Repos\\PruebasVVasdfas32eqad\\LaboratorioPagina90\\obj\\",
+        "outputPath": "C:\\Users\\ca\\Source\\Repos\\PruebasVV123asdas12asdasd12e\\LaboratorioPagina90\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -69,6 +69,10 @@
             "NUnit3TestAdapter": {
               "target": "Package",
               "version": "[4.6.0, )"
+            },
+            "Selenium.Support": {
+              "target": "Package",
+              "version": "[4.32.0, )"
             },
             "Selenium.WebDriver": {
               "target": "Package",

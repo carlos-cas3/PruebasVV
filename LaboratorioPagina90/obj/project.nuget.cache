@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "PEmDT84GHZc=",
+  "dgSpecHash": "7Bw1swwzyVU=",
   "success": true,
-  "projectFilePath": "C:\\Users\\ca\\Source\\Repos\\PruebasVVasdfas32eqad\\LaboratorioPagina90\\LaboratorioPagina90.csproj",
+  "projectFilePath": "C:\\Users\\ca\\Source\\Repos\\PruebasVV123asdas12asdasd12e\\LaboratorioPagina90\\LaboratorioPagina90.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\ca\\.nuget\\packages\\coverlet.collector\\6.0.2\\coverlet.collector.6.0.2.nupkg.sha512",
     "C:\\Users\\ca\\.nuget\\packages\\fluentassertions\\8.2.0\\fluentassertions.8.2.0.nupkg.sha512",
@@ -14,6 +14,7 @@
     "C:\\Users\\ca\\.nuget\\packages\\nunit\\4.2.2\\nunit.4.2.2.nupkg.sha512",
     "C:\\Users\\ca\\.nuget\\packages\\nunit.analyzers\\4.4.0\\nunit.analyzers.4.4.0.nupkg.sha512",
     "C:\\Users\\ca\\.nuget\\packages\\nunit3testadapter\\4.6.0\\nunit3testadapter.4.6.0.nupkg.sha512",
+    "C:\\Users\\ca\\.nuget\\packages\\selenium.support\\4.32.0\\selenium.support.4.32.0.nupkg.sha512",
     "C:\\Users\\ca\\.nuget\\packages\\selenium.webdriver\\4.32.0\\selenium.webdriver.4.32.0.nupkg.sha512",
     "C:\\Users\\ca\\.nuget\\packages\\system.reflection.metadata\\1.6.0\\system.reflection.metadata.1.6.0.nupkg.sha512"
   ],

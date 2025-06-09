@@ -347,6 +347,22 @@
           "build/netcoreapp3.1/NUnit3TestAdapter.props": {}
         }
       },
+      "Selenium.Support/4.32.0": {
+        "type": "package",
+        "dependencies": {
+          "Selenium.WebDriver": "4.32.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/WebDriver.Support.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/WebDriver.Support.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "Selenium.WebDriver/4.32.0": {
         "type": "package",
         "compile": {
@@ -827,6 +843,20 @@
         "nunit_256.png"
       ]
     },
+    "Selenium.Support/4.32.0": {
+      "sha512": "rWIsE2xBZ4i0x7u22dUHC5mUiaNCdZSfPo8+C4xq680ANR7ZIA5eF0a1lJYD+UNntm9LAK/BvZPjMaTOk2fQEg==",
+      "type": "package",
+      "path": "selenium.support/4.32.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "icon.png",
+        "lib/netstandard2.0/WebDriver.Support.dll",
+        "lib/netstandard2.0/WebDriver.Support.xml",
+        "selenium.support.4.32.0.nupkg.sha512",
+        "selenium.support.nuspec"
+      ]
+    },
     "Selenium.WebDriver/4.32.0": {
       "sha512": "7mocv9JMt3jth7nkfrKISv23dwRR8+1/QE0REyNco+L6A9tSFdR+makPZpGKSE8ppTt8JMyvFPQLgRnPzRL5+w==",
       "type": "package",
@@ -878,6 +908,7 @@
       "NUnit >= 4.2.2",
       "NUnit.Analyzers >= 4.4.0",
       "NUnit3TestAdapter >= 4.6.0",
+      "Selenium.Support >= 4.32.0",
       "Selenium.WebDriver >= 4.32.0",
       "coverlet.collector >= 6.0.2"
     ]
@@ -889,11 +920,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\ca\\Source\\Repos\\PruebasVVasdfas32eqad\\LaboratorioPagina90\\LaboratorioPagina90.csproj",
+      "projectUniqueName": "C:\\Users\\ca\\Source\\Repos\\PruebasVV123asdas12asdasd12e\\LaboratorioPagina90\\LaboratorioPagina90.csproj",
       "projectName": "LaboratorioPagina90",
-      "projectPath": "C:\\Users\\ca\\Source\\Repos\\PruebasVVasdfas32eqad\\LaboratorioPagina90\\LaboratorioPagina90.csproj",
+      "projectPath": "C:\\Users\\ca\\Source\\Repos\\PruebasVV123asdas12asdasd12e\\LaboratorioPagina90\\LaboratorioPagina90.csproj",
       "packagesPath": "C:\\Users\\ca\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\ca\\Source\\Repos\\PruebasVVasdfas32eqad\\LaboratorioPagina90\\obj\\",
+      "outputPath": "C:\\Users\\ca\\Source\\Repos\\PruebasVV123asdas12asdasd12e\\LaboratorioPagina90\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -951,6 +982,10 @@
           "NUnit3TestAdapter": {
             "target": "Package",
             "version": "[4.6.0, )"
+          },
+          "Selenium.Support": {
+            "target": "Package",
+            "version": "[4.32.0, )"
           },
           "Selenium.WebDriver": {
             "target": "Package",

@@ -7,6 +7,7 @@ using LaboratorioPagina90.PageObjectPattern.Helpers;
 using OpenQA.Selenium;
 using LaboratorioPagina90.PageObjectPattern.Models;
 using LaboratorioPagina90.PageObjectPattern.PageObject.ShoppingCart;
+using LaboratorioPagina90.PageObjectPattern.PageObject.ContactUs;
 
 //Pagina principal
 namespace LaboratorioPagina90.PageObjectPattern.PageObject.HomePage
@@ -39,7 +40,7 @@ namespace LaboratorioPagina90.PageObjectPattern.PageObject.HomePage
         private IWebElement ShoppingCartIcon => driver.FindElement(By.Id("cart-icon"));
         public int GetShoppingCartIconNumberOfItems() => int.Parse(ShoppingCartIcon.Text);
         
-        //para abrir el carro de compras
+        //para abrir el carro de compras TEST 4
         public ShoppingCartPageObject ClickShoppingCartIcon()
         {
             ShoppingCartIcon.Click();
@@ -60,6 +61,17 @@ namespace LaboratorioPagina90.PageObjectPattern.PageObject.HomePage
                 return false;
             }
         }
+
+        //para el 4to test
+        private IWebElement ButtonContactUs => driver.FindElement(By.Id("openContactPopup"));
+
+        public ContactUsPageObject clickContactUs()
+        {
+            ButtonContactUs.Click();
+            return new ContactUsPageObject(driver);
+        }
+
+
 
     }
 }
