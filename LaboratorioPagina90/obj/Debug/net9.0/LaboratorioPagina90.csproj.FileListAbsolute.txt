@@ -523,3 +523,14 @@ C:\Users\ca\Source\Repos\PruebasVV123asdas12asdasd12e\LaboratorioPagina90\obj\De
 C:\Users\ca\Source\Repos\PruebasVV123asdas12asdasd12e\LaboratorioPagina90\obj\Debug\net9.0\LaboratorioPagina90.genruntimeconfig.cache
 C:\Users\ca\Source\Repos\PruebasVV123asdas12asdasd12e\LaboratorioPagina90\obj\Debug\net9.0\ref\LaboratorioPagina90.dll
 C:\Users\ca\Source\Repos\PruebasVV123asdas12asdasd12e\LaboratorioPagina90\bin\Debug\net9.0\WebDriver.Support.dll
+C:\Users\ca\Source\Repos\PruebasVV\LaboratorioPagina90\bin\Debug\net9.0\WebDriver.Support.dll
+C:\Users\ca\Source\Repos\PruebasVV\LaboratorioPagina90\bin\Debug\net9.0\Microsoft.Extensions.Configuration.dll
+C:\Users\ca\Source\Repos\PruebasVV\LaboratorioPagina90\bin\Debug\net9.0\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\ca\Source\Repos\PruebasVV\LaboratorioPagina90\bin\Debug\net9.0\Microsoft.Extensions.Configuration.Binder.dll
+C:\Users\ca\Source\Repos\PruebasVV\LaboratorioPagina90\bin\Debug\net9.0\Microsoft.Extensions.Configuration.FileExtensions.dll
+C:\Users\ca\Source\Repos\PruebasVV\LaboratorioPagina90\bin\Debug\net9.0\Microsoft.Extensions.Configuration.Json.dll
+C:\Users\ca\Source\Repos\PruebasVV\LaboratorioPagina90\bin\Debug\net9.0\Microsoft.Extensions.FileProviders.Abstractions.dll
+C:\Users\ca\Source\Repos\PruebasVV\LaboratorioPagina90\bin\Debug\net9.0\Microsoft.Extensions.FileProviders.Physical.dll
+C:\Users\ca\Source\Repos\PruebasVV\LaboratorioPagina90\bin\Debug\net9.0\Microsoft.Extensions.FileSystemGlobbing.dll
+C:\Users\ca\Source\Repos\PruebasVV\LaboratorioPagina90\bin\Debug\net9.0\Microsoft.Extensions.Primitives.dll
+C:\Users\ca\Source\Repos\PruebasVV\LaboratorioPagina90\bin\Debug\net9.0\appsettings.json

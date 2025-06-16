@@ -23,26 +23,35 @@ using Microsoft.VisualStudio.TestPlatform.ObjectModel;
 
 namespace LaboratorioPagina90.PageObjectPattern
 {
-    public class FreshMarketTests
+    public class FreshMarketTests : TestBase
     {
 #pragma warning disable NUnit1032
-        IWebDriver driver;
-        [SetUp]
-        public void SetUp()
-        {
-            driver = new ChromeDriver();
-            driver.Manage().Window.Maximize();
-            driver.Manage().Timeouts().ImplicitWait = TimeSpan.FromSeconds(3);
-            driver.Url = "https://curso.testautomation.es/FruitVegetablesShopWeb/index.html";
-        }
-        [TearDown]
-        public void TearDownTest()
-        {
-            driver.Quit();
-        }
+       // IWebDriver driver;
+      //  [SetUp]
+     //   public void SetUp()
+      //  {
+       //     driver = new ChromeDriver();
+        //    driver.Manage().Window.Maximize();
+         //   driver.Manage().Timeouts().ImplicitWait = TimeSpan.FromSeconds(3);
+          //  driver.Url = "https://curso.testautomation.es/FruitVegetablesShopWeb/index.html";
+       // }
+     //   [TearDown]
+      //  public void TearDownTest()
+     //   {
+       //     driver.Quit();
+       // }
+
+
         [Test]
         public void VerifyThatFruitsAreCorrectlyDisplayed()
         {
+            using UITestContext uiTestContext = new UITestContext();
+            var driver = uiTestContext.Driver;
+
+            driver.Manage().Window.Maximize();
+            driver.Manage().Timeouts().ImplicitWait = TimeSpan.FromSeconds(3);
+            driver.Url = "https://curso.testautomation.es/FruitVegetablesShopWeb/index.html";
+
             var homePage = new HomePageObject(driver); // crea una instancia de la pagina principal
 
             var result = new List<FruitModel>();
@@ -96,6 +105,12 @@ namespace LaboratorioPagina90.PageObjectPattern
         [Test]
         public void SearchTests()
         {
+            using UITestContext uiTestContext = new UITestContext();
+            var driver = uiTestContext.Driver;
+            driver.Manage().Window.Maximize();
+            driver.Manage().Timeouts().ImplicitWait = TimeSpan.FromSeconds(3);
+            driver.Url = "https://curso.testautomation.es/FruitVegetablesShopWeb/index.html";
+
             var homepage = new HomePageObject(driver); // nos retorna la pagina
 
             var foundFruits = homepage.SearchBar
@@ -133,6 +148,12 @@ namespace LaboratorioPagina90.PageObjectPattern
         [Test]
         public void ShoppingCartTest()
         {
+            using UITestContext uiTestContext = new UITestContext();
+            var driver = uiTestContext.Driver;
+            driver.Manage().Window.Maximize();
+            driver.Manage().Timeouts().ImplicitWait = TimeSpan.FromSeconds(3);
+            driver.Url = "https://curso.testautomation.es/FruitVegetablesShopWeb/index.html";
+
             //tarea 1. verificar que el icono de arriba es 0
             var homePage = new HomePageObject(driver);
             homePage.IsShoppingCartIconNumberOfItems(0).Should().BeTrue();
@@ -203,6 +224,13 @@ namespace LaboratorioPagina90.PageObjectPattern
         [Test]
         public void ContactUsTest()
         {
+            using UITestContext uiTestContext = new UITestContext();
+            var driver = uiTestContext.Driver;
+            driver.Manage().Window.Maximize();
+            driver.Manage().Timeouts().ImplicitWait = TimeSpan.FromSeconds(3);
+            driver.Url = "https://curso.testautomation.es/FruitVegetablesShopWeb/index.html";
+
+
             var homePage = new HomePageObject(driver);
             var contactUsForm = homePage.clickContactUs();
             contactUsForm.ClickSumit();
